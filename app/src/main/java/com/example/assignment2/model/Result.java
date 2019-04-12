@@ -1,12 +1,13 @@
-package com.example.assignment2;
+package com.example.assignment2.model;
 
 import android.net.Uri;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-class Result {
+public class Result {
 
+    //
     @SerializedName("artistName")
     @Expose
     private String artistName;
